@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "webpack-dev-server --config ./config/webpack.config.dev.js",
-    "http-server": "http-server --silent -c-1",
+    "http-server": "http-server build --silent -c-1",
     "build": "webpack -p --config ./config/webpack.config.prod.js",
     "test": "jest",
     "test-watch": "jest --watch"
